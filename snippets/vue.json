@@ -36,7 +36,7 @@
         "description" : "dropdown hoverable"
     },
     "dropdowns disable": {
-        "prefix": "b-dropdown-disable",
+        "prefix": "b-dropdown-disabled",
         "body": [
             "<!-- b-dropdown disabled -->",
             "<b-dropdown disabled>",
@@ -68,5 +68,76 @@
             "<!-- / b-dropdown custom trigger END -->"
         ],
         "description": "dropdown custom trigger"
+    },
+    "Menu simple": {
+        "prefix": "b-menu",
+        "body": [
+            "<!-- b-menu -->",
+            "<b-menu>",
+                "\t<b-menu-list label=\"General\">",
+                    "\t\t<b-menu-item>Dashboard</b-menu-item>",
+                    "\t\t<b-menu-item>Customer</b-menu-item>",
+                "\t</b-menu-list>",
+                "\t<b-menu-list label=\"Administration\">",
+                    "\t\t<b-menu-item>Team Settings</b-menu-item>",
+                    "\t\t<b-menu-dropdown>",
+                        "\t\t\t<template slot=\"trigger\">Manage Your Team</template>",
+                        "\t\t\t<b-menu-item>Members</b-menu-item>",
+                        "\t\t\t<b-menu-item>Plugins</b-menu-item>",
+                        "\t\t\t<b-menu-item>Add a member</b-menu-item>",
+                    "\t\t</b-menu-dropdown>",
+                    "\t<b-menu-item>Invitations</b-menu-item>",
+                    "\t<b-menu-item>Cloud Storage Environment Settings</b-menu-item>",
+                    "\t<b-menu-item>Authentication</b-menu-item>",
+                "\t</b-menu-list>",
+                "\t<b-menu-list label=\"Transactions\">",
+                    "\t\t<b-menu-item>Payments</b-menu-item>",
+                    "\t\t<b-menu-item>Transfers</b-menu-item>",
+                    "\t\t<b-menu-item>Balance</b-menu-item>",
+                "\t</b-menu-list>",
+            "</b-menu>",
+            "<!-- / b-menu END -->"
+        ],
+        "description": "A simple menu, for any type of vertical navigation"
+    },
+    "menu multi-level": {
+        "prefix": "b-menu-multi",
+        "body": [
+            "<!-- b-menu multi-level -->",
+            "<b-menu>",
+                "\t<b-menu-list>",
+                    "\t\t<b-menu-dropdown>",
+                        "\t\t\t<template slot=\"trigger\">Level 1</template>",
+                        "\t\t\t<b-menu-dropdown>",
+                            "\t\t\t\t<template slot=\"trigger\">Level 2</template>",
+                            "\t\t\t\t<b-menu-dropdown>",
+                                "\t\t\t\t\t<template slot=\"trigger\">Level 3</template>",
+                                "\t\t\t\t\t<b-menu-item>Level 4</b-menu-item>",
+                                "\t\t\t\t\t<b-menu-item>Level 4</b-menu-item>",
+                            "\t\t\t\t</b-menu-dropdown>",
+                            "\t\t\t\t<b-menu-dropdown>",
+                                "\t\t\t\t\t<template slot=\"trigger\">Level 3</template>",
+                                "\t\t\t\t\t<b-menu-item>Level 4</b-menu-item>",
+                                "\t\t\t\t\t<b-menu-item>Level 4</b-menu-item>",
+                            "\t\t\t\t</b-menu-dropdown>",
+                        "\t\t\t</b-menu-dropdown>",
+                        "\t\t<b-menu-dropdown>",
+                            "\t\t\t<template slot=\"trigger\">Level 2</template>",
+                            "\t\t\t<b-menu-dropdown>",
+                                "\t\t\t\t<template slot=\"trigger\">Level 3</template>",
+                                "\t\t\t\t<b-menu-item>Level 4</b-menu-item>",
+                                "\t\t\t\t<b-menu-item>Level 4</b-menu-item>",
+                            "\t\t\t</b-menu-dropdown>",
+                            "\t\t\t<b-menu-dropdown>",
+                                "\t\t\t\t<template slot=\"trigger\">Level 3</template>",
+                                "\t\t\t\t<b-menu-item>Level 4</b-menu-item>",
+                                "\t\t\t\t<b-menu-item>Level 4</b-menu-item>",
+                            "\t\t\t</b-menu-dropdown>",
+                        "\t\t</b-menu-dropdown>",
+                    "\t\t</b-menu-dropdown>",
+                "\t</b-menu-list>",
+            "</b-menu>",
+            "<!-- b-menu multi level END -->"
+        ]
     }
 }

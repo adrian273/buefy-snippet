@@ -2,8 +2,11 @@
     "name": "buefy-snippet",
     "displayName": "buefy_snippet",
     "description": "buefy-component",
-    "version": "0.0.1",
-    "publisher": "adrianVerdugo",
+    "keywords": [
+        "snippets", "Bulma", "Vue", "Buefy"
+    ],
+    "version": "0.0.3",
+    "publisher": "adrianverdugo",
     "engines": {
         "vscode": "^1.14.0"
     },
