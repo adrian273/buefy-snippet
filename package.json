@@ -5,7 +5,7 @@
     "keywords": [
         "snippets", "Bulma", "Vue", "Buefy"
     ],
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "adrianverdugo",
     "engines": {
         "vscode": "^1.14.0"

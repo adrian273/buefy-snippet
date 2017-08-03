@@ -17,6 +17,10 @@ b-panel-tabs | Panel witch Tabs
 b-tabs | Responsive horizontal navigation tabs
 b-tabs-center | Responsive horizontal navigation tabs position center
 b-tabs-right | Responsive horizontal navigation tabs position right
+b-tabs-icons | Tabs icons
+b-tabs-boxed | Tabs type Boxed
+b-tabs-toggle | Tabs type radio button
+b-tabs-expanded | Tabs type radio extends
 
 ## @ Adrian Verdugo [snippet - vscode]
 # @ by Rafael Beraldo [Buefy](https://buefy.github.io/#/).

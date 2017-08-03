@@ -228,5 +228,57 @@
             "<!-- / b-tabs-right END -->"
         ],
         "description": "Responsive horizontal navigation tabs position right"
+    },
+    "tabs icons": {
+        "prefix": "b-tabs-icons",
+        "body": [
+            "<!-- b-tabs icons -->",
+            "<b-tabs>",
+                "\t<b-tab-item label=\"Pictures\" icon=\"photo_library\"></b-tab-item>",
+                "\t<b-tab-item label=\"Music\" icon=\"library_music\"></b-tab-item>",
+                "\t<b-tab-item label=\"Videos\" icon=\"video_library\"></b-tab-item>",
+            "</b-tabs>",
+            "<!-- / b-tabs-icons END -->"
+        ],
+        "description": "Tabs icons"
+    },
+    "tabs type boxed": {
+        "prefix": "b-tabs-boxed",
+        "body": [
+            "<!-- b-tabs boxed -->",
+            "<b-tabs type=\"is-boxed\">",
+                "\t<b-tab-item label=\"Tabs1\"></b-tab-item>",
+                "\t<b-tab-item label=\"Tabs2\"></b-tab-item>",
+                "\t<b-tab-item label=\"Tabs3\"></b-tab-item>",
+            "</b-tabs>",
+            "<!-- / b-tabs boxed END -->"
+        ],
+        "description": "tabs type boxed"
+    },
+    "tabs type toggle": {
+        "prefix": "b-tabs-toggle",
+        "body": [
+            "<!-- b-tabs toggle -->",
+            "<b-tabs type=\"is-toggle\">",
+                "\t<b-tab-item label=\"Tabs1\"></b-tab-item>",
+                "\t<b-tab-item label=\"Tabs2\"></b-tab-item>",
+                "\t<b-tab-item label=\"Tabs3\"></b-tab-item>",
+            "</b-tabs>",
+            "<!-- / b-tabs toggle END -->"
+        ],
+        "description": "tabs type toggle"
+    },
+    "tabs type expanded": {
+        "prefix": "b-tabs-expanded",
+        "body": [
+            "<!-- b-tabs expanded -->",
+            "<b-tabs type=\"is-toggle\" expanded>",
+                "\t<b-tab-item label=\"Tabs1\"></b-tab-item>",
+                "\t<b-tab-item label=\"Tabs2\"></b-tab-item>",
+                "\t<b-tab-item label=\"Tabs3\"></b-tab-item>",
+            "</b-tabs>",
+            "<!-- / b-tabs expanded END -->"
+        ],
+        "description": "tabs type expanded"
     }
 }
