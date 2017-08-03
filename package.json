@@ -1,0 +1,21 @@
+{
+    "name": "buefy-snippet",
+    "displayName": "buefy_snippet",
+    "description": "buefy-component",
+    "version": "0.0.1",
+    "publisher": "adrianVerdugo",
+    "engines": {
+        "vscode": "^1.14.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "vue",
+                "path": "./snippets/vue.json"
+            }
+        ]
+    }
+}

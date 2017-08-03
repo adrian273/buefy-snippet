@@ -1,0 +1,72 @@
+{
+    "dropdowns": {
+        "prefix": "b-dropdown",
+        "body": [
+            "<!-- b-dropdown -->",
+            "<b-dropdown>",
+                "\t<button class=\"button is-primary\" slot=\"trigger\"",
+                    "\t\t<span>Click me!</span>",
+                    "\t\t<b-icon icon=\"arrow_drop_down\"></b-icon>",
+                "\t</button>",
+
+                "<b-dropdown-option>Action</b-dropdown-option>",
+                "<b-dropdown-option>Another action</b-dropdown-option>",
+                "<b-dropdown-option>Something else</b-dropdown-option>",
+            "</b-dropdown>",
+            "<!-- / b-dropdown END -->"
+        ],
+        "description": "cliked b-dropdown"
+    },
+    "dropdowns hoverable": {
+        "prefix": "b-dropdown-hoverable",
+        "body": [
+            "<!-- b-dropdown hoverable -->",
+            "<b-dropdown hoverable>",
+                "\t<button class=\"button is-info\" slot=\"trigger\">",
+                    "\t\t<span>Hover me!</span>",
+                    "\t\t<b-icon icon=\"arrow_drop_down\"></b-icon>",
+                "\t</button>",
+
+                "\t<b-dropdown-option>Action</b-dropdown-option>",
+                "\t<b-dropdown-option>Another action</b-dropdown-option>",
+                "\t<b-dropdown-option>Something else</b-dropdown-option>",
+            "</b-dropdown>",
+            "<!-- / b-dropdown hoverable END -->"
+        ],
+        "description" : "dropdown hoverable"
+    },
+    "dropdowns disable": {
+        "prefix": "b-dropdown-disable",
+        "body": [
+            "<!-- b-dropdown disabled -->",
+            "<b-dropdown disabled>",
+                "\t<button class=\"button is-primary\" slot=\"trigger\"",
+                    "\t\t<span>Click me!</span>",
+                    "\t\t<b-icon icon=\"arrow_drop_down\"></b-icon>",
+                "\t</button>",
+
+                "<b-dropdown-option>Action</b-dropdown-option>",
+                "<b-dropdown-option>Another action</b-dropdown-option>",
+                "<b-dropdown-option>Something else</b-dropdown-option>",
+            "</b-dropdown>",
+            "<!-- / b-dropdown disabled END -->"
+        ],
+        "description": "dropdown disabled"
+    },
+    "dropdowns custom trigger": {
+        "prefix": "b-dropdown-custom",
+        "body": [
+            "<!-- b-dropdown custom trigger-->",
+            "<b-dropdown>",
+                "\t<p class=\"tag is-success\" slot=\"trigger\">",
+                    "\t\tCustom trigger",
+                "\t</p>",
+                "\t<b-dropdown-option>Action</b-dropdown-option>",
+                "\t<b-dropdown-option>Another action</b-dropdown-option>",
+                "\t<b-dropdown-option>Something else</b-dropdown-option>",
+            "</b-dropdown>",
+            "<!-- / b-dropdown custom trigger END -->"
+        ],
+        "description": "dropdown custom trigger"
+    }
+}
