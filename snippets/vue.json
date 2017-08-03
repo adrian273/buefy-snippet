@@ -137,7 +137,45 @@
                     "\t\t</b-menu-dropdown>",
                 "\t</b-menu-list>",
             "</b-menu>",
-            "<!-- b-menu multi level END -->"
-        ]
+            "<!-- / b-menu multi level END -->"
+        ],
+        "description": "Menu con multi level"
+    },
+    "Panel": {
+        "prefix": "b-panel",
+        "body": [
+            "<!-- b-panel -->",
+            "<b-panel>",
+                "\t<strong slot=\"header\">Title</strong>",
+                "\t<div class=\"content\">",
+                    "\t\t<h3>",
+                        "\t\t\t<!-- Subtitle -->",
+                    "\t\t</h3>",
+                    "\t\t<p>",
+                        "\t\t\t<!-- Content -->",
+                    "\t\t</p>",
+                "\t</div>",
+            "</b-panel>",
+            "<!-- / b-panel END -->"
+        ],
+        "description": "A simple panel"
+    },
+    "Panel tabs": {
+        "prefix": "b-panel-tabs",
+        "body": [
+            "<!-- b-panel-tabs -->",
+            "<b-panel :collapsible=\"true\" hasCustomTemplate header=\"Title\">",
+                "\t<p class=\"panel-tabs\">",
+                    "\t\t<a class=\"is-active\">All</a>",
+                    "\t\t<a>Public</a>",
+                    "\t\t<a>Private</a>",
+                "\t</p>",
+                "\t<div class=\"panel-block\">",
+                    "\t\t<!-- content -->",
+                "\t</div>",
+            "</b-panel>",
+            "<!-- / b-panel tabs END -->"
+        ],
+        "description" : "A panel Tabs"
     }
 }
