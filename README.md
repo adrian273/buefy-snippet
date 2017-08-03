@@ -14,6 +14,9 @@ b-menu | simple menu
 b-menu-multi | menu multi level
 b-panel | simple panel
 b-panel-tabs | Panel witch Tabs
+b-tabs | Responsive horizontal navigation tabs
+b-tabs-center | Responsive horizontal navigation tabs position center
+b-tabs-right | Responsive horizontal navigation tabs position right
 
 ## @ Adrian Verdugo [snippet - vscode]
 # @ by Rafael Beraldo [Buefy](https://buefy.github.io/#/).

@@ -176,6 +176,57 @@
             "</b-panel>",
             "<!-- / b-panel tabs END -->"
         ],
-        "description" : "A panel Tabs"
+        "description": "A panel Tabs"
+    },
+    "tabs": {
+        "prefix": "b-tabs",
+        "body": [
+            "<!-- b-tabs -->",
+            "<b-tabs>",
+                "\t<b-tab-item label=\"Tabs1\">",
+                    "\t\t<!-- Content 1 -->",
+                "\t</b-tab-item>",
+
+                "\t<b-tab-item label=\"Tabs2\">",
+                    "\t<!-- content 2 -->",
+                "\t</b-tab-item>",
+            "</b-tabs>",
+            "<!-- / b-tabs END -->"
+        ],
+        "description": "Responsive horizontal navigation tabs"
+    },
+    "tabs centered": {
+        "prefix": "b-tabs-center",
+        "body": [
+            "<!-- b-tabs-centered -->",
+            "<b-tabs position=\"is-centered\" class=\"block\">",
+                "\t<b-tab-item label=\"Tabs1\">",
+                    "\t\t<!-- Content 1 -->",
+                "\t</b-tab-item>",
+
+                "\t<b-tab-item label=\"Tabs2\">",
+                    "\t<!-- content 2 -->",
+                "\t</b-tab-item>",
+            "</b-tabs>",
+            "<!-- / b-tabs-centered END -->"
+        ],
+        "description": "Responsive horizontal navigation tabs position center"
+    },
+    "tabs right": {
+        "prefix": "b-tabs-right",
+        "body": [
+            "<!-- b-tabs-right -->",
+            "<b-tabs position=\"is-right\" class=\"block\">",
+                "\t<b-tab-item label=\"Tabs1\">",
+                    "\t\t<!-- Content 1 -->",
+                "\t</b-tab-item>",
+
+                "\t<b-tab-item label=\"Tabs2\">",
+                    "\t<!-- content 2 -->",
+                "\t</b-tab-item>",
+            "</b-tabs>",
+            "<!-- / b-tabs-right END -->"
+        ],
+        "description": "Responsive horizontal navigation tabs position right"
     }
 }
