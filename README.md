@@ -21,6 +21,10 @@ b-tabs-icons | Tabs icons
 b-tabs-boxed | Tabs type Boxed
 b-tabs-toggle | Tabs type radio button
 b-tabs-expanded | Tabs type radio extends
+b-tooltip-right | Tooltip position right
+b-tooltip-top | Tooltip position top
+b-tooltip-bottom | Tooltip position bottom
+b-tooltip-left | Tooltip position left
 
 ## @ Adrian Verdugo [snippet - vscode]
 # @ by Rafael Beraldo [Buefy](https://buefy.github.io/#/).

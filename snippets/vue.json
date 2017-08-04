@@ -280,5 +280,49 @@
             "<!-- / b-tabs expanded END -->"
         ],
         "description": "tabs type expanded"
+    },
+    "tooltip tight": {
+        "prefix": "b-tooltip-right",
+        "body": [
+            "<!-- Tooltip Right -->",
+            "<b-tooltip label=\"Tooltip right\" position=\"is-right\">",
+                "\t<button class=\"button is-dark\">${1:right}</button>",
+            "</b-tooltip>",
+            "<!-- / Tooltip right END -->"
+        ],
+        "description": "Tooltip position right button dark"
+    },
+    "tooltip top": {
+        "prefix": "b-tooltip-top",
+        "body": [
+            "<!-- Tooltip Top -->",
+            "<b-tooltip label=\"Tooltip top\">",
+                "\t<button class=\"button is-dark\">${1:top}</button>",
+            "</b-tooltip>",
+            "<!-- / Tooltip Top END -->"
+        ],
+        "description": "Tooltip position top button dark"
+    },
+    "tooltip bottom": {
+        "prefix": "b-tooltip-bottom",
+        "body": [
+            "<!-- Tooltip Bottom -->",
+            "<b-tooltip label=\"Tooltip bottom\" position=\"is-bottom\">",
+                "\t<button class=\"button is-dark\">${1:bottom}</button>",
+            "</b-tooltip>",
+            "<!-- / Tooltip Bottom END -->"
+        ],
+        "description": "Tooltip position bottom button dark"
+    },
+    "tooltip left": {
+        "prefix": "b-tooltip-left",
+        "body": [
+            "<!-- Tooltip Left -->",
+            "<b-tooltip label=\"Tooltip left\" position=\"is-left\">",
+                "\t<button class=\"button is-dark\">${1:left}</button>",
+            "</b-tooltip>",
+            "<!-- / Tooltip Left END -->"
+        ],
+        "description": "Tooltip position left button dark"
     }
 }

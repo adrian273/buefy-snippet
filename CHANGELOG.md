@@ -1,5 +1,10 @@
 # Change Log
-All notable changes to the "buefy-snippet" extension will be documented in this file.
+
+
+## [0.0.6] 04-08-2017
+### Added
+- add icon
+- Tooltips [right, top, bottom, left]
 
 
 ## [0.0.5] 03-08-2017

@@ -5,7 +5,7 @@
     "keywords": [
         "snippets", "Bulma", "Vue", "Buefy"
     ],
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "adrianverdugo",
     "engines": {
         "vscode": "^1.14.0"
@@ -13,6 +13,11 @@
     "categories": [
         "Snippets"
     ],
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#C80000",
+        "theme": "dark"
+    },
     "contributes": {
         "snippets": [
             {
