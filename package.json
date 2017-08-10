@@ -5,7 +5,7 @@
     "keywords": [
         "snippets", "Bulma", "Vue", "Buefy"
     ],
-    "version": "0.0.6",
+    "version": "0.0.7",
     "publisher": "adrianverdugo",
     "engines": {
         "vscode": "^1.14.0"
@@ -15,8 +15,12 @@
     ],
     "icon": "images/icon.png",
     "galleryBanner": {
-        "color": "#C80000",
+        "color": "#3a383d",
         "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/adrian273/buefy-snippet"
     },
     "contributes": {
         "snippets": [

@@ -25,6 +25,12 @@ b-tooltip-right | Tooltip position right
 b-tooltip-top | Tooltip position top
 b-tooltip-bottom | Tooltip position bottom
 b-tooltip-left | Tooltip position left
+b-alert | default alert
+b-alert-custom | custom alert
+b-confirm | confirm default
+b-confirm-success | confirm custom is-success
+b-confirm-danger | confirm custom is-danger
+b-prompt | dialog prompt
 
 ## @ Adrian Verdugo [snippet - vscode]
 # @ by Rafael Beraldo [Buefy](https://buefy.github.io/#/).

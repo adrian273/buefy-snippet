@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.0.7] 09-08-2017
+### Added
+- Alert(default, custom)
+- Confirm (default, custom[is-success, is-danger])
+- Prompt
+
 
 ## [0.0.6] 04-08-2017
 ### Added
