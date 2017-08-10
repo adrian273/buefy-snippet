@@ -461,5 +461,60 @@
             "})"
         ],
         "description": "dialog snackbar danger"
+    },
+    "notification default": {
+        "prefix": "b-notification",
+        "body": [
+            "<!-- Notification Default -->",
+            "<b-notification>",
+            "\t${1:notification}",
+            "</b-notification>",
+            "<!-- / Notification Default END -->"
+        ],
+        "description": "Bold notification blocks to alert your users of something"
+    },
+    "notification info": {
+        "prefix": "b-notification-info",
+        "body": [
+            "<!-- Notification Info -->",
+            "<b-notification type=\"is-info\">",
+            "\t${1:notification}",
+            "</b-notification>",
+            "<!-- / Notification Info END -->"
+        ],
+        "description": "Bold notification[info] blocks to alert your users of something"
+    },
+    "notification success": {
+        "prefix": "b-notification-success",
+        "body": [
+            "<!-- Notification Success -->",
+            "<b-notification type=\"is-success\">",
+            "\t${1:notification}",
+            "</b-notification>",
+            "<!-- / Notification Success END -->"
+        ],
+        "description": "Bold notification[success] blocks to alert your users of something"
+    },
+    "notification warning": {
+        "prefix": "b-notification-warning",
+        "body": [
+            "<!-- Notification Warning -->",
+            "<b-notification type=\"is-warning\">",
+            "\t${1:notification}",
+            "</b-notification>",
+            "<!-- / Notification Warning END -->"
+        ],
+        "description": "Bold notification[warning] blocks to alert your users of something"
+    },
+    "notification danger": {
+        "prefix": "b-notification-danger",
+        "body": [
+            "<!-- Notification Danger -->",
+            "<b-notification type=\"is-danger\">",
+            "\t${1:notification}",
+            "</b-notification>",
+            "<!-- / Notification Danger END -->"
+        ],
+        "description": "Bold notification[danger] blocks to alert your users of something"
     }
 }

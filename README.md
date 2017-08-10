@@ -37,6 +37,12 @@ b-toast-danger | Toasts are simple text[success] messages to inform the user
 b-snackbar | Dialog snackbar
 b-snackbar-warning | Dialog snackbar[warning]
 b-snackbar-danger | Dialog snackbar[danger]
+b-notification | Bold notification blocks to alert your users of something
+b-notification-info | Bold notification[info] blocks to alert your users of something
+b-notification-success | Bold notification[success] blocks to alert your users of something
+b-notification-warning | Bold notification[warning] blocks to alert your users of something
+b-notification-danger | Bold notification[danger] blocks to alert your users of something
+
 
 ## @ Adrian Verdugo [snippet - vscode]
 # @ by Rafael Beraldo [Buefy](https://buefy.github.io/#/).
