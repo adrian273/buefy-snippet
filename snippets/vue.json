@@ -422,5 +422,44 @@
             "})"
         ],
         "description": "Toast are simple text[danger] messages to inform the user"
+    },
+    "snackbar default": {
+        "prefix": "b-snackbar",
+        "body": [
+            "this.\\$snackbar.open('${1:message}')"
+        ],
+        "description": "dialog snackbar"
+    },
+    "snackbar custom-warning": {
+        "prefix": "b-snackbar-warning",
+        "body": [
+            "this.\\$snackbar.open({",
+            "\tmessage: '${1:message}',",
+            "\type: 'is-warning',",
+            "\tposition: 'is-top-left',",
+            "\tactionText: 'Retry',",
+            "\tonAction: () => {",
+            "\t\tthis.\\$toast.open('')",
+            "\t}",
+            "})"
+
+        ],
+        "description": "dialog snackbar warning"
+    },
+    "snackbar custom-danger": {
+        "prefix": "b-snackbar-danger",
+        "body": [
+            "this.\\$snackbar.open({",
+            "\tduration: 5000,",
+            "\tmessage: '${1:message}',",
+            "\ttype: 'is-danger',",
+            "\tposition: 'is-bottom-left',",
+            "\tactionText: 'Undo',",
+            "\tonAction: () => {",
+            "\t\tthis.\\$toast.open('Action pressed')",
+            "\t}",
+            "})"
+        ],
+        "description": "dialog snackbar danger"
     }
 }

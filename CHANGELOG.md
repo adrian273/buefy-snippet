@@ -1,8 +1,9 @@
 # Change Log
 
-## [0.0.8] 10-08-2017
+## [0.0.9] 10-08-2017
 ### Added
 - Toast(default, success, danger)
+- Snackbar(default, warning, danger)
 
 ## [0.0.7] 09-08-2017
 ### Added

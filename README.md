@@ -34,7 +34,9 @@ b-prompt | dialog prompt
 b-toast | Toasts are simple text messages to inform the user
 b-toast-success | Toasts are simple text[success] messages to inform the user
 b-toast-danger | Toasts are simple text[success] messages to inform the user
-
+b-snackbar | Dialog snackbar
+b-snackbar-warning | Dialog snackbar[warning]
+b-snackbar-danger | Dialog snackbar[danger]
 
 ## @ Adrian Verdugo [snippet - vscode]
 # @ by Rafael Beraldo [Buefy](https://buefy.github.io/#/).
