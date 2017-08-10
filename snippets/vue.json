@@ -393,5 +393,34 @@
             "})"
         ],
         "description": "Dialog prompt"
+    },
+    "toast default": {
+        "prefix": "b-toast",
+        "body": [
+            "this.\\$toast.open('${1:message}')"
+        ],
+        "description": "Toast are simple text messages to inform the user"
+    },
+    "toast success": {
+        "prefix": "b-toast-success",
+        "body": [
+            "this.\\$toast.open({",
+            "\tmessage: '${1:message}',",
+            "\ttype: 'is-success'",
+            "})"
+        ],
+        "description": "Toast are simple text[success] messages to inform the user"
+    },
+    "toast danger": {
+        "prefix": "b-toast-danger",
+        "body": [
+            "this.\\$toast.open({",
+            "\tduration: 5000,",
+            "\tmessage: '${1:message}',",
+            "\tposition: 'is-bottom',",
+            "\ttype: 'is-danger'",
+            "})"
+        ],
+        "description": "Toast are simple text[danger] messages to inform the user"
     }
 }

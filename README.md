@@ -31,6 +31,10 @@ b-confirm | confirm default
 b-confirm-success | confirm custom is-success
 b-confirm-danger | confirm custom is-danger
 b-prompt | dialog prompt
+b-toast | Toasts are simple text messages to inform the user
+b-toast-success | Toasts are simple text[success] messages to inform the user
+b-toast-danger | Toasts are simple text[success] messages to inform the user
+
 
 ## @ Adrian Verdugo [snippet - vscode]
 # @ by Rafael Beraldo [Buefy](https://buefy.github.io/#/).
